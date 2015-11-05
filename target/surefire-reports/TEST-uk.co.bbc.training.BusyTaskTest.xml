@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="1.267" errors="0" skipped="0" tests="1" name="uk.co.bbc.training.BusyTaskTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
+    <property name="java.vm.version" value="20.65-b04-466.1"/>
+    <property name="awt.nativeDoubleBuffering" value="true"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="mrj.build" value="11M4716"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/nairm03/trainings/cosmos-training/msn-cosmos-training"/>
+    <property name="java.runtime.version" value="1.6.0_65-b14-466.1-11M4716"/>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
+    <property name="basedir" value="/Users/nairm03/trainings/cosmos-training/msn-cosmos-training"/>
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="surefire.real.class.path" value="/var/folders/5g/by34xbms1l9_yg_z_nxmvxd4nxgrcl/T/surefirebooter3323375429763421286.jar"/>
+    <property name="java.io.tmpdir" value="/var/folders/5g/by34xbms1l9_yg_z_nxmvxd4nxgrcl/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.jnu.encoding" value="MacRoman"/>
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="surefire.test.class.path" value="/Users/nairm03/trainings/cosmos-training/msn-cosmos-training/target/test-classes:/Users/nairm03/trainings/cosmos-training/msn-cosmos-training/target/classes:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/org/springframework/spring-webmvc/3.2.3.RELEASE/spring-webmvc-3.2.3.RELEASE.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/org/springframework/spring-beans/3.2.3.RELEASE/spring-beans-3.2.3.RELEASE.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/org/springframework/spring-core/3.2.3.RELEASE/spring-core-3.2.3.RELEASE.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/org/springframework/spring-context/3.2.3.RELEASE/spring-context-3.2.3.RELEASE.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/org/springframework/spring-aop/3.2.3.RELEASE/spring-aop-3.2.3.RELEASE.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/org/springframework/spring-expression/3.2.3.RELEASE/spring-expression-3.2.3.RELEASE.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/org/springframework/spring-web/3.2.3.RELEASE/spring-web-3.2.3.RELEASE.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/javax/servlet/jstl/1.2/jstl-1.2.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/org/springframework/spring-test/3.2.3.RELEASE/spring-test-3.2.3.RELEASE.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/junit/junit/4.11/junit-4.11.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/org/codehaus/janino/janino/2.6.1/janino-2.6.1.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/org/codehaus/janino/commons-compiler/2.6.1/commons-compiler-2.6.1.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.9.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/nairm03"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="MacRoman"/>
+    <property name="user.name" value="nairm03"/>
+    <property name="java.class.path" value="/Users/nairm03/trainings/cosmos-training/msn-cosmos-training/target/test-classes:/Users/nairm03/trainings/cosmos-training/msn-cosmos-training/target/classes:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/org/springframework/spring-webmvc/3.2.3.RELEASE/spring-webmvc-3.2.3.RELEASE.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/org/springframework/spring-beans/3.2.3.RELEASE/spring-beans-3.2.3.RELEASE.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/org/springframework/spring-core/3.2.3.RELEASE/spring-core-3.2.3.RELEASE.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/org/springframework/spring-context/3.2.3.RELEASE/spring-context-3.2.3.RELEASE.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/org/springframework/spring-aop/3.2.3.RELEASE/spring-aop-3.2.3.RELEASE.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/org/springframework/spring-expression/3.2.3.RELEASE/spring-expression-3.2.3.RELEASE.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/org/springframework/spring-web/3.2.3.RELEASE/spring-web-3.2.3.RELEASE.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/javax/servlet/jstl/1.2/jstl-1.2.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/org/springframework/spring-test/3.2.3.RELEASE/spring-test-3.2.3.RELEASE.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/junit/junit/4.11/junit-4.11.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/org/codehaus/janino/janino/2.6.1/janino-2.6.1.jar:/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo/org/codehaus/janino/commons-compiler/2.6.1/commons-compiler-2.6.1.jar:"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
+    <property name="sun.java.command" value="/var/folders/5g/by34xbms1l9_yg_z_nxmvxd4nxgrcl/T/surefirebooter3323375429763421286.jar /var/folders/5g/by34xbms1l9_yg_z_nxmvxd4nxgrcl/T/surefire5458324073391587200tmp /var/folders/5g/by34xbms1l9_yg_z_nxmvxd4nxgrcl/T/surefire2965556638147154146tmp"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_65"/>
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext"/>
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar"/>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="localRepository" value="/Users/nairm03/vagrant/tool-tal-pal-sandbox/maven_repo"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="mrj.version" value="1070.1.6.0_65-466.1"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="1.238" classname="uk.co.bbc.training.BusyTaskTest" name="runsForSpecifiedNumberAmountOfTime"/>
+</testsuite>
