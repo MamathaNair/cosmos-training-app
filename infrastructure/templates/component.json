@@ -2,38 +2,43 @@
     "Description": "A BBC Component template. Includes autoscaled instances", 
     "Parameters": {
         "ImageId": {
-            "Description": "The AMI to use for this component", 
+            "Description": "The AMI to use for this component",
+             "Default": "ami-69b9941e",  
             "Type": "String"
         }, 
         "MinSize": {
             "Description": "The minimum number of instances", 
-            "Default": "2", 
+            "Default": "1", 
             "Type": "String"
         }, 
         "MaxSize": {
             "Description": "The maximum number of instances", 
-            "Default": "2", 
+            "Default": "1", 
             "Type": "String"
         }, 
         "InstanceType": {
             "Description": "The size of the instances", 
-            "Default": "m1.small", 
+            "Default": "t2.micro", 
             "Type": "String"
         }, 
         "VpcId": {
-            "Description": "The Id of the VPC to attach the environment to", 
+            "Description": "The Id of the VPC to attach the environment to",
+            "Default": "vpc-19618871",
             "Type": "String"
         }, 
         "KeyName": {
-            "Description": "Name of existing EC2 keypair to enable SSH access to the created instances", 
+            "Description": "Name of existing EC2 keypair to enable SSH access to the created instances",
+             "Default": "cosmos", 
             "Type": "String"
         }, 
         "Environment": {
-            "Description": "The name of the environment. Test or Live", 
+            "Description": "The name of the environment. Test or Live",
+             "Default": "int",  
             "Type": "String"
         }, 
         "BastionAccessSecurityGroup": {
             "Description": "The security group that allows access from the bastions", 
+             "Default": "sg-3d273e51",  
             "Type": "String"
         }, 
         "UpdateMaxBatchSize": {
@@ -52,36 +57,48 @@
             "Type": "String"
         }, 
         "PrivateSubnet1Id": {
-            "Description": "The id of private subnet 1", 
+            "Description": "The id of private subnet 1",
+            "Default": "subnet-d5df06bd", 
             "Type": "String"
         }, 
         "PrivateSubnet2Id": {
-            "Description": "The id of private subnet 2", 
+            "Description": "The id of private subnet 2",
+            "Default": "subnet-a4df06cc", 
             "Type": "String"
         }, 
         "PrivateSubnet3Id": {
-            "Description": "The id of private subnet 3", 
+            "Description": "The id of private subnet 3",
+            "Default": "subnet-8fdf06e7", 
             "Type": "String"
         }, 
         "DomainNameBase": {
             "Description": "Base domain name (ending with a '.') under which new DNS entries are added", 
-            "Default": "cloud.bbc.co.uk.", 
+            "Default": "int.cloud.bbc.co.uk.", 
             "Type": "String"
         }, 
         "CnameEntry": {
             "Description": "The cname entry for the component", 
+             "Default": "msn-cosmos-training", 
             "Type": "String"
         }, 
         "PublicSubnet1Id": {
-            "Description": "The id of public subnet 1", 
+            "Description": "The id of public subnet 1",
+             "Default": "subnet-85dc05ed",    
             "Type": "String"
         }, 
         "PublicSubnet2Id": {
-            "Description": "The id of public subnet 2", 
+            "Description": "The id of public subnet 2",
+            "Default": "subnet-14df067c",   
             "Type": "String"
         }, 
         "PublicSubnet3Id": {
-            "Description": "The id of public subnet 3", 
+            "Description": "The id of public subnet 3",
+            "Default": "subnet-cbdf06a3",  
+            "Type": "String"
+        },
+        "S3BucketArn": {
+            "Description": "The id of public subnet 3",
+            "Default": "arn:aws:s3:::prod-s3-common-storagebucket-sl9vplg1o48d",  
             "Type": "String"
         }
     }, 
